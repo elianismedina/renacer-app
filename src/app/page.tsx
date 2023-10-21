@@ -1,9 +1,10 @@
-import Carousel from "./_components/Carousel";
+
+import Slideshow from "./_components/Slideshow";
 
 
 export default function Home() {
   return (
-    <Carousel/>
+    <Slideshow/>
   );
 }
 
