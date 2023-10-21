@@ -10,11 +10,11 @@ import Image from 'next/image'
 const Slideshow = () => {
 
     const images = [
-        "images/image1.jpg",
-        "images/image2.jpg",
-        "images/image3.jpg",
-        "images/image4.jpg",
-        "images/image5.jpg",
+        "/images/image1.jpg",
+        "/images/image2.jpg",
+        "/images/image3.jpg",
+        "/images/image4.jpg",
+        "/images/image5.jpg",
 
     ]
     const zoomInProperties = {
@@ -40,7 +40,7 @@ const Slideshow = () => {
         {images.map((each, index) => (
             <div key={index} className='flex justify-center md:items-center items-start w-screen h-screen relative'>
                 <Image
-                    src="/each"
+                    src={each}
                     alt="Picture of the author"
                     layout="fill"
                     objectFit="cover"
