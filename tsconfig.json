@@ -27,9 +27,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.jsx",
     "**/*.cjs",
     "**/*.mjs",
     ".next/types/**/*.ts"
-  ],
-  "exclude": ["node_modules"]
+, "src/app/_components/Carousel.jsx"  ],
+  "exclude": ["node_modules", "tailwind.config.cjs"]
 }
