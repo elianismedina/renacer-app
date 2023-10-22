@@ -68,7 +68,7 @@ const Navbar = () => {
                         <Link
                         key={idx}
                         href={item.page}
-                        className={"block lg:inline-block text-gray-200npm hover:text-neutral-500 dark:text-neutral-100"}
+                        className={"block lg:inline-block text-lime-950 font-bold hover:text-neutral-500 dark:text-neutral-100"}
                         onClick={() => setNavbar(!navbar)}
                         >
                             {item.label}

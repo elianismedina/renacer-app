@@ -27,13 +27,13 @@ const Slideshow = () => {
 		transitionDuration: 300,
 		infinite: true,
 		prevArrow: (
-			<div className="ml-10 top-40 md:top-72">
-				<ArrowLeftIcon className="h-8 w-8 text-white cursor-pointer" />
+			<div className="ml-5 top-40 md:top-72 bg-lime-950 rounded-full p-2">
+				<ArrowLeftIcon  className="h-5 w-5 text-white cursor-pointer" />
 			</div>
 		),
 		nextArrow: (
-				<div className="mr-10 top-40 md:top-72">
-				   <ArrowRightIcon className="h-8 w-8 text-white cursor-pointer" />
+				<div className="mr-5 top-40 md:top-72  bg-lime-950 rounded-full p-2">
+				   <ArrowRightIcon className="h-5 w-5 text-white cursor-pointer" />
 			    </div>
 		),
 	};
