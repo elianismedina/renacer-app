@@ -50,8 +50,7 @@ const Slideshow = () => {
 							width={1920}
 							height={1080}
 						/>
-                        <h1 className="absolute md:top-60 top-24 inset-x-1/4 text-center z-10 md:text-6xl text-4xl bold text-white">Hello, Nik</h1>
-                        <p className="absolute md:top-80 top-40 inset-x-1/4 text-center z-10 md:text-2xl text-xl bold text-white">Everything you can imagine is real</p>
+                        
 					</div>
 				))}
 			</Zoom>
