@@ -1,0 +1,50 @@
+.menu-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fafafa;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .link {
+    color:#f8fafc;
+  }
+  
+  .container {
+    background-color:#1a2e05;
+    padding: 30px 0px;
+  }
+  .copywrite-box {
+    color: #1a2e05;
+    background-color:#ffffff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+    .logo-img {
+    mix-blend-mode: multiply;
+  }
+  
+  .logo-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Times New Roman", Times, serif;
+  }
