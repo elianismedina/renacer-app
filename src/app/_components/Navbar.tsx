@@ -37,7 +37,7 @@ const NAV_ITEMS: Array<NavItem> = [
     },
     {
         label: 'Contacto',
-        page: 'contact',
+        page: '/contact',
     },
 ]
 

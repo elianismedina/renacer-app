@@ -7,7 +7,7 @@ import React from "react";
 const Footer = () => {
     return (
       <>
-        <footer className="footer footer-center rounded bg-lime-950  p-10 text-slate-50">
+        <footer className="footer footer-center rounded bg-lime-950  p-20 text-slate-50">
           <nav className="grid grid-flow-col gap-4">
             <a className="link-hover link">About us</a>
             <a className="link-hover link">Contact</a>
