@@ -38,24 +38,26 @@ const Slideshow = () => {
 		),
 	};
 	return (
-		
-		 	<div className="w-full h-screen">
-			<Zoom {...zoomInProperties}>
-				{images.map((each, index) => (
-					<div key={index} className="flex justify-center md:items-center items-start w-screen h-screen relative">
-						<Image
-							className="w-screen"
-							src={each}
-							alt=""
-							width={1920}
-							height={1080}
-						/>
-                        
-					</div>
-				))}
-			</Zoom>
-		</div>
-	);
+    <div className="h-full w-full">
+      <Zoom {...zoomInProperties}>
+        {images.map((each, index) => (
+          <div
+            key={index}
+            className="relative flex h-screen w-screen items-start justify-center md:items-center"
+          >
+            <Image
+              className="w-screen"
+              src={each}
+              alt="slider-image"
+              width={1280}
+              height={720}
+              quality={100}
+            />
+          </div>
+        ))}
+      </Zoom>
+    </div>
+  );
 };
 
 
