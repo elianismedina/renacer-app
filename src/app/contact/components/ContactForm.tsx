@@ -16,6 +16,7 @@ import Image from 'next/image';
 
 
 
+
 const FormSchema = z.object({
     email: z.string(),
     message: z.string().min(10).max(1000),
@@ -31,6 +32,7 @@ const ContactForm = () => {
     }
 
     return (
+      <>
       <div className="grid grid-cols-1 gap-2 mt sm:grid-cols-4 sm:gap-20">
         {/*Columna 1*/}
         <section>
@@ -149,7 +151,6 @@ const ContactForm = () => {
         </Form>
 
         </section>
-        
         {/*Columna 4*/}
         <section className="space-y-10 space-x-8">
         <Button
@@ -164,8 +165,9 @@ const ContactForm = () => {
           
         </Button>
         </section>
-       
       </div>
+      </>
+
     );
 };
 
