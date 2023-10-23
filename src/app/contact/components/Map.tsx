@@ -8,22 +8,26 @@ export function Map(){
 
     useEffect(() => {
         const initMap = async () => {
+
             const loader = new Loader({
                 apiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
                 version: "weekly",
             });
 
-            const google = await loader.load();
+            const { Map } = await loader.importLibrary('maps');
+
             const position = {
-                lat: 43.642693,
-                lng: -79.3871189,
+                lat: 2.77228,
+                lng: -77.6655,
             };
+
             const mapOptions: google.maps.MapOptions = {
                 center: position,
                 zoom: 17,
                 mapId: 'MY_NEXTJS_MAPID',
             };
-            const map = new google.maps.Map(mapRef.current!, mapOptions);
+            const map = new Map(mapRef.current!, mapOptions);
+            
         };
         void initMap();
     }, []);
@@ -31,7 +35,10 @@ export function Map(){
 
 
     return (
-        <div style={{ height:'600px'}} ref={mapRef}/>
+        <div
+        className='mt-10 mb-0'
+        style={{ height:'500px'}} ref={mapRef}
+        />
     )
 }
 
