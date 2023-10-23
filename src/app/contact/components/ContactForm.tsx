@@ -36,15 +36,13 @@ const ContactForm = () => {
       <div className="grid grid-cols-1 gap-2 mt sm:grid-cols-4 sm:gap-20">
         {/*Columna 1*/}
         <section>
-        <div className='ml-28 mb-10 md:py-2 md:block'>
+               <div className='ml-28 mb-10 md:py-2 md:block'>
                     <Image
-                    
                     src='/images/Logo.svg'
                     alt='logo'
                     width={100}
                     height={100}
                     />
-                
                 </div>
         </section>
 
@@ -80,7 +78,7 @@ const ContactForm = () => {
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="grid grid-cols-1 p-6 border-solid border-2 border-sky-500 rounded-lg w-2/3 sm:w-full sm:p-6"
+            className="grid grid-cols-1 p-4 w-72 border-solid border-2 border-lime-950 rounded-lg  sm:w-full sm:p-6"
           >
             <div>
 
@@ -137,9 +135,9 @@ const ContactForm = () => {
                     <FormMessage />
                   </FormItem>
                 )}
-              />
+              />  
               <Button
-                className="w-48 rounded-xl bg-lime-950 p-2 text-white mt-4 font-bold text-md sm:w-2/3 sm:ml-10"
+                className="w-48 ml-10 mt-8 mb-8 rounded-xl bg-lime-950 p-2 text-white  font-bold text-md sm:w-2/3 sm:ml-10"
                 type="submit"
                 variant="secondary"
                 size="icon"
@@ -154,15 +152,13 @@ const ContactForm = () => {
         {/*Columna 4*/}
         <section className="space-y-10 space-x-8">
         <Button
-          className="w-2/3 ml-8 rounded-xl bg-lime-950 p-6 font-bold text-white mt-20 sm:w-2/3 sm:m-auto sm:mb-6 sm:content-center"
+          className="w-2/3 ml-14 rounded-xl bg-lime-500 p-4 font-bold text-white mt-20 sm:w-2/3 sm:mt-36"
           type="submit"
           variant="secondary"
           size="icon"
         > 
-          <BsFillSuitHeartFill className="absolute h-6 w-6" />
+          <BsFillSuitHeartFill className="absolute h-6 w-6 ml-2" />
           <p className="text-lg mb-2">Dona ahora</p>
-          
-          
         </Button>
         </section>
       </div>

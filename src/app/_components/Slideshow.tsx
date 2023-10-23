@@ -43,7 +43,7 @@ const Slideshow = () => {
         {images.map((each, index) => (
           <div
             key={index}
-            className="relative flex h-screen w-screen items-start justify-center md:items-center"
+            className="relative flex h-screen w-screen items-start justify-center top-24 md:items-center"
           >
             <Image
               className="w-screen"

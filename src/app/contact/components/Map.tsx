@@ -36,8 +36,8 @@ export function Map(){
 
     return (
         <div
-        className='mt-10 mb-0'
-        style={{ height:'500px'}} ref={mapRef}
+        className='mt-10'
+        style={{ height:'600px'}} ref={mapRef}
         />
     )
 }
