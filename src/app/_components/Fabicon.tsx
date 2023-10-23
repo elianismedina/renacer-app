@@ -12,7 +12,7 @@ export default function FloatingActionButtons() {
       >
         <Fab
         variant="extended"
-        className='bg-lime-500 text-white font-bold w-30 h-8 p-2 top-10 text-xs sm:top-96'
+        className=' bg-lime-500 text-white font-bold w-30 h-8 p-2 top-10 text-xs sm:bg-lime-500 sm:top-96 sm:p-4 sm:w-48 sm:h-12 sm:text-md'
         >
           <FavoriteBorderSharpIcon
           sx={{ mr: 1 }}

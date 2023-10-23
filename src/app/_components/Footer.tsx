@@ -15,7 +15,6 @@ const Footer = () => {
             <Link href={'/'}>Donaciones</Link>
             <Link href={'/'}>Noticias</Link>
             <Link href={'/contact'}>Contacto</Link>
-            
           </nav>
           {/*Social media links */}
           <nav>
@@ -63,8 +62,7 @@ const Footer = () => {
           </nav>
           <aside>
             <p className="p-4 font-semibold">
-              Copyright © 2023 - All right reserved by CONSEJO COMUNITARIO
-              RENACER NEGRO
+              Copyright © 2023 - All right reserved by <span className="text-lime-500">CONSEJO COMUNITARIO RENACER NEGRO</span>
             </p>
           </aside>
         </footer>
