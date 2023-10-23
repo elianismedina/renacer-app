@@ -4,6 +4,7 @@ import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/solid'
 import { Zoom } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import Image from 'next/image';
+import Fabicon from './Fabicon';
 
 
 
@@ -56,6 +57,9 @@ const Slideshow = () => {
           </div>
         ))}
       </Zoom>
+	  <div className='absolute top-48'>
+		<Fabicon/>
+	  </div>
     </div>
   );
 };
