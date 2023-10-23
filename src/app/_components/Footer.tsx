@@ -7,15 +7,15 @@ import React from "react";
 const Footer = () => {
     return (
       <>
-        <footer className="footer footer-center rounded bg-lime-950  p-20 text-slate-50">
-          <nav className="grid grid-flow-col gap-4">
+        <footer className="footer footer-center rounded bg-lime-950  p-2 w-full text-slate-50">
+          <nav className="grid grid-flow-col gap-2 p-4">
             <a className="link-hover link">About us</a>
             <a className="link-hover link">Contact</a>
             <a className="link-hover link">Jobs</a>
             <a className="link-hover link">Press kit</a>
           </nav>
           <nav>
-            <div className="grid grid-flow-col gap-4">
+            <div className="grid grid-flow-col gap-4 p-4">
               <a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </nav>
           <aside>
-            <p>Copyright © 2023 - All right reserved by CONSEJO COMUNITARIO RENACER NEGRO</p>
+            <p className="p-4">Copyright © 2023 - All right reserved by CONSEJO COMUNITARIO RENACER NEGRO</p>
           </aside>
         </footer>
       </>

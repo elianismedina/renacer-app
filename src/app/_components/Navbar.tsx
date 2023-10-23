@@ -4,6 +4,7 @@ import { IoMdMenu, IoMdClose } from 'react-icons/io'
 
 import { ThemeSwitcher } from './ThemeSwitcher';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 
@@ -51,9 +52,17 @@ const Navbar = () => {
             <div>
               <div className='flex items-center justify-between py-3'>
                 <div className='md:py-2 md:block'>
-                    <h2 className='text-lg font-semibold dark:text-neutral-100'>Renacer negro</h2>
+                    <Image
+                    src='/images/Logo.svg'
+                    alt='logo'
+                    width={50}
+                    height={50}
+                
+                    
+                    />
+                
                 </div>
-                <div className='md:hidden p-0 mr-5'>
+                <div className='md:hidden p-6 px-6 mr-6 mt-0'>
                     <button onClick={()=>setNavbar(!navbar)}>{navbar ? <IoMdClose size={20}/> : <IoMdMenu size={20}/>}</button>
                 </div>
               </div>
