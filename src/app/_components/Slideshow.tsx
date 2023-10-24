@@ -11,14 +11,15 @@ import Fabicon from './Fabicon';
 
 
 
+
 const Slideshow = () => {
 	//Array of Images
 	const images = [
-		"/images/image1.jpg",
-		"/images/image2.jpg",
-		"/images/image3.jpg",
-		"/images/image4.jpg",
-		"/images/image5.jpg",
+		"https://res.cloudinary.com/dxa54qfxx/image/upload/v1697928841/image5_jpjk9h_swey1r.jpg",
+		"https://res.cloudinary.com/dxa54qfxx/image/upload/v1697928841/image4_onioiy_cxvb4j.jpg",
+		"https://res.cloudinary.com/dxa54qfxx/image/upload/v1697928841/image3_njfs7m_jwy0pj.jpg",
+		"https://res.cloudinary.com/dxa54qfxx/image/upload/v1697928841/image2_qnl7n9_eswei3.jpg",
+		"https://res.cloudinary.com/dxa54qfxx/image/upload/v1697928841/image1_ttvfne_azhsll.jpg",
 	];
 
 	//These are custom properties for zoom effect while slide-show
@@ -44,15 +45,15 @@ const Slideshow = () => {
         {images.map((each, index) => (
           <div
             key={index}
-            className="relative flex h-screen w-screen items-start justify-center top-24 md:items-center"
+            className="relative flex h-screen w-full items-start justify-center top-24 md:items-center"
           >
             <Image
-              className="w-screen"
+			  className="w-screen"
               src={each}
               alt="slider-image"
               width={1280}
               height={720}
-              quality={100}
+			  
             />
           </div>
         ))}

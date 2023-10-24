@@ -8,7 +8,7 @@ import Link from "next/link";
 const Footer = () => {
     return (
       <>
-        <footer className="footer footer-center h-full  w-full bg-lime-950 p-2 font-semibold text-slate-50">
+        <footer className="footer footer-center h-full  w-full bg-lime-950 p-2 font-semibold text-slate-50 dark:bg-stone-900 dark:border-b dark:border-stone-600">
           <nav className="grid grid-cols-1 text-lg mt-4 gap-4 justify-between p-4 sm:gap-4 sm:grid-flow-col">
             <Link href={'/'}>El consejo</Link>
             <Link href={'/'}>Proyectos</Link>
@@ -58,6 +58,7 @@ const Footer = () => {
                   <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
                 </svg>
               </Link>
+              <p className="absolute p-12 ml-2 text-lg">Siguenos</p>
             </div>
           </nav>
           <aside>

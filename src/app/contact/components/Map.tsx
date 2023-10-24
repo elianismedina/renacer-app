@@ -16,6 +16,8 @@ export function Map(){
 
             const { Map } = await loader.importLibrary('maps');
 
+            const { Marker } = await loader.importLibrary('marker') ;
+
             const position = {
                 lat: 2.77228,
                 lng: -77.6655,
@@ -27,7 +29,11 @@ export function Map(){
                 mapId: 'MY_NEXTJS_MAPID',
             };
             const map = new Map(mapRef.current!, mapOptions);
-            
+
+            new Marker({
+                map: map,
+                position: position,
+            });
         };
         void initMap();
     }, []);
@@ -37,7 +43,7 @@ export function Map(){
     return (
         <div
         className='mt-10'
-        style={{ height:'600px'}} ref={mapRef}
+        style={{ height:'400px'}} ref={mapRef}
         />
     )
 }
