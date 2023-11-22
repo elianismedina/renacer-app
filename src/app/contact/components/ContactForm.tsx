@@ -38,10 +38,10 @@ const ContactForm = () => {
         <section>
                <div className='ml-28 mb-10 md:py-2 md:block'>
                     <Image
-                    src='/images/Logo.svg'
+                    src='/images/Vector.svg'
                     alt='logo'
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     />
                 </div>
         </section>
