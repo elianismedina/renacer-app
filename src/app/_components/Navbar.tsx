@@ -22,7 +22,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Proyectos",
-    page: "projectos",
+    page: "/projects",
   },
   {
     label: "Donaciones",
