@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ProjectPage() {
   return (
     <>
-      <div className="mx-auto mb-0 mt-0 grid grid-cols-2 bg-slate-50 py-28 text-center font-bold text-black">
+      <div className="first-letter:-auto mb-0 mt-0 grid grid-cols-1 gap-8 bg-slate-50 p-8 py-28 text-center font-bold text-black md:grid-cols-2">
         <Image
           src="/images/under-construction.svg"
           alt="Logo"
@@ -15,7 +15,7 @@ export default function ProjectPage() {
           <h1 className="p-4 text-start text-4xl font-extrabold">Proyectos</h1>
         </div>
         <div className="relative mx-auto">
-          <div className="absolute -right-14 top-12 h-48 w-2/3 rounded-lg bg-sky-800 text-2xl text-white opacity-50">
+          <div className="absolute -right-8 top-12 h-32 w-2/3 rounded-lg bg-sky-800 text-2xl text-white opacity-50">
             <p className="p-4">Projecto 1</p>
             <button className="btn btn-accent">Ver projecto</button>
           </div>
@@ -28,8 +28,9 @@ export default function ProjectPage() {
           />
         </div>
         <div className="relative mx-auto">
-          <div className="absolute -right-14 top-12 h-48 w-2/3 rounded-lg bg-sky-800 text-2xl text-white opacity-50">
+          <div className="absolute -right-8 top-12 h-32 w-2/3 rounded-lg bg-sky-800 text-2xl text-white opacity-50">
             <p className="p-4">Projecto 2</p>
+            <button className="btn btn-accent">Ver projecto</button>
           </div>
           <Image
             src="https://res.cloudinary.com/dxa54qfxx/image/upload/t_Project2Renacer/v1701023065/Imagen_de_WhatsApp_2023-11-25_a_las_11.54.45_02fb6a1e_wnjmym.jpg"
