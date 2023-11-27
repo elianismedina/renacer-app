@@ -4,21 +4,26 @@ import Image from "next/image";
 export default function ProjectPage() {
   return (
     <>
-      <div className="first-letter:-auto mb-0 mt-0 grid grid-cols-1 gap-8 bg-slate-50 p-8 py-28 text-center font-bold text-black md:grid-cols-2">
-        <Image
-          src="/images/under-construction.svg"
-          alt="Logo"
-          width={200}
-          height={200}
-        />
+      <div className="mx-auto mb-12 mr-4 mt-0 grid grid-cols-1 gap-16 bg-slate-50 p-8 py-2 md:grid-cols-2">
         <div>
-          <h1 className="p-4 text-start text-4xl font-extrabold">Proyectos</h1>
+          <Image
+            src="/public/images/Vector.svg"
+            alt="Logo"
+            width={100}
+            height={100}
+            className="rounded-lg"
+          />
         </div>
-        <div className="relative mx-auto">
+        <div>
+          <h1 className="text-4xl">Proyectos</h1>
+        </div>
+        <div className="relative mx-auto gap-2">
           <div className="absolute -right-8 top-12 h-32 w-2/3 rounded-lg bg-sky-800 text-2xl text-white opacity-50">
-            <p className="p-4">Projecto 1</p>
-            <button className="btn btn-accent">Ver projecto</button>
+            <p className="text-md p-4">Projecto 1</p>
           </div>
+          <button className="btn btn-accent absolute -bottom-4 right-0 p-2 text-white md:top-28">
+            Ver projecto
+          </button>
           <Image
             src="https://res.cloudinary.com/dxa54qfxx/image/upload/t_Project1Renacer/v1701022632/Imagen_de_WhatsApp_2023-11-25_a_las_11.55.07_d28391c9_htfnw1.jpg"
             alt="Proyecto 1"
@@ -29,9 +34,11 @@ export default function ProjectPage() {
         </div>
         <div className="relative mx-auto">
           <div className="absolute -right-8 top-12 h-32 w-2/3 rounded-lg bg-sky-800 text-2xl text-white opacity-50">
-            <p className="p-4">Projecto 2</p>
-            <button className="btn btn-accent">Ver projecto</button>
+            <p className="text-md p-4">Projecto 2</p>
           </div>
+          <button className="btn btn-accent absolute -bottom-4 right-0 p-2 text-white md:top-28">
+            Ver projecto
+          </button>
           <Image
             src="https://res.cloudinary.com/dxa54qfxx/image/upload/t_Project2Renacer/v1701023065/Imagen_de_WhatsApp_2023-11-25_a_las_11.54.45_02fb6a1e_wnjmym.jpg"
             alt="Proyecto 2"
