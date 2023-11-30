@@ -32,9 +32,12 @@ export default function ProjectPage() {
           <div className="absolute -right-8 top-12 h-32 w-2/3 rounded-lg bg-sky-800 text-2xl text-white opacity-50">
             <p className="text-md p-4">Projecto 2</p>
           </div>
-          <button className="btn btn-accent absolute -bottom-4 right-0 p-2 text-white md:top-28">
-            Ver projecto
-          </button>
+          <Link href="/projects/project2">
+            <button className="btn btn-accent absolute -bottom-4 right-0 p-2 text-white md:top-28">
+              Ver projecto
+            </button>
+          </Link>
+
           <Image
             src="https://res.cloudinary.com/dxa54qfxx/image/upload/t_Project2Renacer/v1701023065/Imagen_de_WhatsApp_2023-11-25_a_las_11.54.45_02fb6a1e_wnjmym.jpg"
             alt="Proyecto 2"
