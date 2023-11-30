@@ -46,13 +46,15 @@ const Navbar = () => {
         <div>
           <div className="ml-6 flex items-center justify-between py-3">
             <div className="md:block md:py-2">
-              <Logo
-                alt="Logo"
-                srcLight="https://res.cloudinary.com/dxa54qfxx/image/upload/v1701312593/Light_1_eqz3wk.svg"
-                srcDark="https://res.cloudinary.com/dxa54qfxx/image/upload/t_Project1Renacer/v1701312593/Dark_xjddfi.svg"
-                width={80}
-                height={80}
-              />
+              <Link href={"/"}>
+                <Logo
+                  alt="Logo"
+                  srcLight="https://res.cloudinary.com/dxa54qfxx/image/upload/v1701312593/Light_1_eqz3wk.svg"
+                  srcDark="https://res.cloudinary.com/dxa54qfxx/image/upload/t_Project1Renacer/v1701312593/Dark_xjddfi.svg"
+                  width={80}
+                  height={80}
+                />
+              </Link>
             </div>
             <div className="mr-6 mt-0 p-6 px-6 md:hidden">
               <button onClick={() => setNavbar(!navbar)}>
