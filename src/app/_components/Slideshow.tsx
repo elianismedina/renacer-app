@@ -9,11 +9,11 @@ import Fabicon from "./Fabicon";
 const Slideshow = () => {
   //Array of Images
   const images = [
-    "https://res.cloudinary.com/dxa54qfxx/image/upload/v1697928841/image5_jpjk9h_swey1r.jpg",
-    "https://res.cloudinary.com/dxa54qfxx/image/upload/v1697928841/image4_onioiy_cxvb4j.jpg",
-    "https://res.cloudinary.com/dxa54qfxx/image/upload/v1697928841/image3_njfs7m_jwy0pj.jpg",
-    "https://res.cloudinary.com/dxa54qfxx/image/upload/v1697928841/image2_qnl7n9_eswei3.jpg",
-    "https://res.cloudinary.com/dxa54qfxx/image/upload/v1697928841/image1_ttvfne_azhsll.jpg",
+    "https://res.cloudinary.com/dxa54qfxx/image/upload/t_SlideShowImage5/v1701362288/Slide_16_9_-_1_5_viwwkt.jpg",
+    "https://res.cloudinary.com/dxa54qfxx/image/upload/t_SlideShowImage1/v1701360508/Slide_16_9_-_1_1_y1wi3s.jpg",
+    "https://res.cloudinary.com/dxa54qfxx/image/upload/t_SlideShowImage2/v1701361495/Slide_16_9_-_1_2_om3mgs.jpg",
+    "https://res.cloudinary.com/dxa54qfxx/image/upload/t_SlideShowImage3/v1701361802/Slide_16_9_-_1_3_s3oi3v.jpg",
+    "https://res.cloudinary.com/dxa54qfxx/image/upload/t_SlideShowImage4/v1701362027/Slide_16_9_-_1_4_zetpdp.jpg",
   ];
 
   //These are custom properties for zoom effect while slide-show
@@ -45,8 +45,10 @@ const Slideshow = () => {
               className="w-screen"
               src={each}
               alt="slider-image"
-              width={1280}
-              height={720}
+              width={1920}
+              height={1080}
+              layout="intrinsic"
+              objectFit="cover"
             />
           </div>
         ))}

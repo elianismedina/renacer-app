@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProjectPage() {
   return (
@@ -13,9 +14,12 @@ export default function ProjectPage() {
           <div className="absolute -right-8 top-12 h-32 w-2/3 rounded-lg bg-sky-800 text-2xl text-white opacity-50">
             <p className="text-md p-4">Projecto 1</p>
           </div>
-          <button className="btn btn-accent absolute -bottom-4 right-0 p-2 text-white md:top-28">
-            Ver projecto
-          </button>
+          <Link href="/projects/project1" className="text-white">
+            <button className="btn btn-accent absolute -bottom-4 right-0 p-2 text-white md:top-28">
+              Ver projecto
+            </button>
+          </Link>
+
           <Image
             src="https://res.cloudinary.com/dxa54qfxx/image/upload/t_Project1Renacer/v1701022632/Imagen_de_WhatsApp_2023-11-25_a_las_11.55.07_d28391c9_htfnw1.jpg"
             alt="Proyecto 1"

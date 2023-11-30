@@ -19,6 +19,7 @@ import { BsFillSuitHeartFill, BsTelephoneOutbound } from "react-icons/bs";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
 import Image from "next/image";
+import Link from "next/link";
 
 const FormSchema = z.object({
   email: z.string(),
@@ -153,15 +154,17 @@ const ContactForm = () => {
         </section>
         {/*Columna 4*/}
         <section className="space-x-8 space-y-10">
-          <Button
-            className="ml-14 mt-20 w-2/3 rounded-xl bg-lime-500 p-4 font-bold text-white sm:mt-36 sm:w-2/3"
-            type="submit"
-            variant="secondary"
-            size="icon"
-          >
-            <BsFillSuitHeartFill className="absolute ml-2 h-6 w-6" />
-            <p className="mb-2 text-lg">Dona ahora</p>
-          </Button>
+          <Link href="/donaciones">
+            <Button
+              className="ml-14 mt-20 w-2/3 rounded-xl bg-lime-500 p-4 font-bold text-white sm:mt-36 sm:w-2/3"
+              type="submit"
+              variant="secondary"
+              size="icon"
+            >
+              <BsFillSuitHeartFill className="absolute ml-2 h-6 w-6" />
+              <p className="mb-2 text-lg">Dona ahora</p>
+            </Button>
+          </Link>
         </section>
       </div>
     </>

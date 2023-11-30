@@ -9,10 +9,10 @@ const Footer = () => {
     <>
       <footer className="footer footer-center h-full  w-full bg-lime-950 p-2 font-semibold text-slate-50 dark:border-b dark:border-stone-600 dark:bg-stone-900">
         <nav className="mt-4 grid grid-cols-1 justify-between gap-4 p-4 text-lg sm:grid-flow-col sm:gap-4">
-          <Link href={"/"}>El consejo</Link>
+          <Link href={"/consejo"}>El consejo</Link>
           <Link href={"/projects"}>Proyectos</Link>
-          <Link href={"/"}>Donaciones</Link>
-          <Link href={"/"}>Noticias</Link>
+          <Link href={"/donaciones"}>Donaciones</Link>
+          <Link href={"/noticias"}>Noticias</Link>
           <Link href={"/contact"}>Contacto</Link>
         </nav>
         {/*Social media links */}

@@ -18,7 +18,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "El consejo",
-    page: "/concejo",
+    page: "/consejo",
   },
   {
     label: "Proyectos",
@@ -26,11 +26,11 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Donaciones",
-    page: "donaciones",
+    page: "/donaciones",
   },
   {
     label: "Noticias",
-    page: "noticias",
+    page: "/noticias",
   },
   {
     label: "Contacto",
