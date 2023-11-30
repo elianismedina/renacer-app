@@ -65,7 +65,6 @@ const ContactForm = () => {
 
             <div>
               <p className="mt-8 w-20">3167864270</p>
-              <p className="mt-8 w-20">Pastor Ocoró Balanta - Rep. Legal</p>
               <p className="mt-8 w-20">crenacernegro@gmail.com</p>
               <p className="mt-8 w-40">
                 Lunes a Viernes entre 8:00 am y 5:30 pm
