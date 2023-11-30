@@ -4,7 +4,7 @@ import { IoMdMenu, IoMdClose } from "react-icons/io";
 
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "../_components/Logo";
 
 interface NavItem {
   label: string;
@@ -46,13 +46,12 @@ const Navbar = () => {
         <div>
           <div className="ml-6 flex items-center justify-between py-3">
             <div className="md:block md:py-2">
-              <Image
-                className="ml-16 cursor-pointer hover:opacity-75"
-                src="/images/Vector.svg"
-                alt="logo"
-                width={100}
-                height={100}
-                priority={true}
+              <Logo
+                alt="Logo"
+                srcLight="https://res.cloudinary.com/dxa54qfxx/image/upload/v1701312593/Light_1_eqz3wk.svg"
+                srcDark="https://res.cloudinary.com/dxa54qfxx/image/upload/t_Project1Renacer/v1701312593/Dark_xjddfi.svg"
+                width={80}
+                height={80}
               />
             </div>
             <div className="mr-6 mt-0 p-6 px-6 md:hidden">
