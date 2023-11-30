@@ -19,7 +19,10 @@ const Footer = () => {
         <nav>
           <div className="grid grid-flow-col gap-4 p-2">
             {/*Youtube */}
-            <a href="https://www.youtube.com/channel/UCmYs8a-JSmvzqg5gSrG_Ymw">
+            <a
+              href="https://www.youtube.com/channel/UCmYs8a-JSmvzqg5gSrG_Ymw"
+              target="_blank"
+            >
               <FaYoutube className="text-3xl" />
             </a>
             {/*Instagram */}
@@ -27,11 +30,14 @@ const Footer = () => {
               <FaInstagram className="text-3xl" />
             </a>
             {/*Facebook */}
-            <a href="https://www.facebook.com/profile.php?id=61553325365441">
+            <a
+              href="https://www.facebook.com/profile.php?id=61553325365441"
+              target="_blank"
+            >
               <FaFacebook className="text-3xl" />
             </a>
-            <p className="absolute p-12 text-lg">Siguenos</p>
           </div>
+          <div>Síguenos en redes sociales!</div>
         </nav>
         <aside>
           <p className="p-4 font-semibold">
