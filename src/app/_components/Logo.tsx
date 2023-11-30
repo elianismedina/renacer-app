@@ -1,5 +1,5 @@
 import Image, { type ImageProps } from "next/image";
-import logo from "../../styles/Logo.module.css";
+import logo from "./logo.module.css";
 
 type Props = Omit<ImageProps, "src" | "priority" | "loading"> & {
   srcLight: string;
