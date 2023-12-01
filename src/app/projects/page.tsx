@@ -2,6 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "projectos | RENACER",
+  description: "Consejo comunitario",
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
+};
+
 export default function ProjectPage() {
   return (
     <>

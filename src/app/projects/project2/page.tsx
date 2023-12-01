@@ -30,7 +30,7 @@ export default function Project2Page() {
           </p>
         </div>
 
-        <div className="mt-96 p-8 md:mt-48">
+        <div className="mt-96 p-8 md:mt-24">
           <p className="text-center text-2xl font-bold text-lime-950">
             Imagenes del proyecto
           </p>
