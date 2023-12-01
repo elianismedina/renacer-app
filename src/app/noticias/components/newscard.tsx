@@ -10,8 +10,9 @@ import CardActions from "@mui/material/CardActions";
 import Collapse from "@mui/material/Collapse";
 import IconButton, { type IconButtonProps } from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-import ShareIcon from "@mui/icons-material/Share";
+
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Dialogbox from "./dialogbox";
 
 interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
@@ -39,7 +40,7 @@ export default function NewsCard() {
       <CardHeader
         action={
           <IconButton aria-label="settings">
-            <ShareIcon />
+            <Dialogbox />
           </IconButton>
         }
         title="Noticia 1"
