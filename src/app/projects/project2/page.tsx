@@ -15,17 +15,19 @@ export default function Project2Page() {
             objectFit="cover"
           />
         </div>
-        <div className="absolute inset-x-0 top-60 mx-auto h-48 w-3/4 bg-slate-50 p-2 md:bottom-0 md:mt-80 md:h-96 md:w-2/4">
+        <div className="absolute inset-x-0 top-60 mx-auto h-96 w-3/4 rounded-lg bg-lime-200 p-2 md:bottom-0 md:mt-80 md:h-80 md:w-2/4">
           <h1 className="ml-10 mt-10 text-3xl font-bold">Proyecto 2</h1>
-          <p className="ml-10 mt-10">
+          <p className="ml-10 mt-4 text-sm">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
             sunt omnis velit quas praesentium! Nemo a explicabo suscipit optio
             odit ducimus vitae? Nostrum veniam doloribus ratione. Modi in a
             architecto.
           </p>
-          <p className="ml-10 mt-2 font-bold">Fecha de inicio:</p>
-          <p className="ml-10 mt-2 font-bold">Municipio:</p>
-          <p className="ml-10 mt-2 font-bold">Cantidad de participantes</p>
+          <p className="ml-10 mt-2 text-sm font-bold">Fecha de inicio:</p>
+          <p className="ml-10 mt-2 text-sm font-bold">Municipio:</p>
+          <p className="ml-10 mt-2 text-sm font-bold">
+            Cantidad de participantes:{" "}
+          </p>
         </div>
 
         <div className="mt-32 p-8 md:mt-48">
