@@ -15,7 +15,7 @@ export default function Project2Page() {
             objectFit="cover"
           />
         </div>
-        <div className="absolute inset-x-0 top-60 mx-auto h-96 w-3/4 rounded-lg bg-lime-200 p-2 md:bottom-0 md:mt-80 md:h-80 md:w-2/4">
+        <div className="absolute inset-x-0 top-60 mx-auto h-96 w-3/4 rounded-lg bg-lime-300 p-2 md:bottom-0 md:mt-80 md:h-80 md:w-2/4">
           <h1 className="ml-10 mt-10 text-3xl font-bold">Proyecto 2</h1>
           <p className="ml-10 mt-4 text-sm">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
@@ -30,7 +30,7 @@ export default function Project2Page() {
           </p>
         </div>
 
-        <div className="mt-32 p-8 md:mt-48">
+        <div className="mt-96 p-8 md:mt-48">
           <p className="text-center text-2xl font-bold text-lime-950">
             Imagenes del proyecto
           </p>
