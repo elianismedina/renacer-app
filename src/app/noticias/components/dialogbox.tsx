@@ -6,7 +6,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import Slide from "@mui/material/Slide";
-import { TransitionProps } from "@mui/material/transitions";
+import { type TransitionProps } from "@mui/material/transitions";
 import ShareIcon from "@mui/icons-material/Share";
 import { FacebookShareButton } from "react-share";
 import { FacebookIcon } from "react-share";
@@ -49,8 +49,7 @@ export default function Dialogbox() {
         <DialogTitle>{"Compartir en redes sociales"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-slide-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+            Comparte esta noticia en tus redes sociales favoritas.
           </DialogContentText>
         </DialogContent>
         <DialogActions>
