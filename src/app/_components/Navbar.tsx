@@ -41,7 +41,7 @@ const NAV_ITEMS: Array<NavItem> = [
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className="fixed top-0 z-40 mx-auto w-full bg-slate-50 px-2 text-black shadow dark:border-b dark:border-stone-600 dark:bg-stone-900 sm:px-20">
+    <header className="fixed top-0 z-40 mx-auto w-full bg-white px-2 text-black shadow dark:border-b dark:border-stone-600 dark:bg-stone-900 sm:px-20">
       <div className="justify-between md:flex md:items-center">
         <div>
           <div className="ml-6 flex items-center justify-between py-3">
