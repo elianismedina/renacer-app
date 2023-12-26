@@ -32,6 +32,6 @@
     "**/*.cjs",
     "**/*.mjs",
     ".next/types/**/*.ts"
-, "src/app/_components/Carousel.jsx"  ],
+, "src/app/components/Carousel.jsx"  ],
   "exclude": ["node_modules", "tailwind.config.cjs"]
 }

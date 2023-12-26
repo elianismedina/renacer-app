@@ -1,17 +1,17 @@
 import "~/styles/globals.css";
-import { Inter as FontSans } from "next/font/google"
+import { Inter as FontSans } from "next/font/google";
 import { headers } from "next/headers";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import { ThemeProvider } from "./theme-provider";
-import Navbar from "./_components/Navbar";
-import Footer from "./_components/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { cn } from "../../libs/utils";
 
 export const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
-})
+});
 
 export const metadata = {
   title: "RENACER negro",
@@ -26,16 +26,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-      className={cn(`font-sans ${fontSans.variable} `)}
-      
-      >
+      <body className={cn(`font-sans ${fontSans.variable} `)}>
         <TRPCReactProvider headers={headers()}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-        <Navbar/>
-        {children}
-        <Footer/>
-        </ThemeProvider>
+          <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+            <Navbar />
+            {children}
+            <Footer />
+          </ThemeProvider>
         </TRPCReactProvider>
       </body>
     </html>

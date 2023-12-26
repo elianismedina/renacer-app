@@ -4,7 +4,7 @@ import { IoMdMenu, IoMdClose } from "react-icons/io";
 
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import Link from "next/link";
-import Logo from "../_components/Logo";
+import Logo from "./Logo";
 
 interface NavItem {
   label: string;
@@ -22,7 +22,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Proyectos",
-    page: "/projects",
+    page: "/project",
   },
   {
     label: "Donaciones",
